@@ -1,0 +1,14 @@
+.custom-container {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.big-img {
+  width: 320px;
+  height: 320px;
+}
+
+.custom-container-container {
+  display: grid;
+  place-items: center;
+}
