@@ -2,8 +2,7 @@
   font-size: 140px;
 }
 
-.text-container {
-  height: max-content;
-  margin-top: auto;
-  margin-bottom: auto;
+.side-container {
+  display: grid;
+  place-items: center;
 }

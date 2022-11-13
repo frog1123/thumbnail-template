@@ -1,0 +1,20 @@
+.text-container-fix {
+  text-align: right;
+}
+
+.side-container-content {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  place-items: center;
+}
+
+.side-text {
+  text-align: center;
+  font-size: 120px;
+  direction: ltr;
+}
+
+.main-img {
+  border-radius: 40px;
+}

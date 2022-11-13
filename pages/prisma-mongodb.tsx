@@ -7,16 +7,17 @@ import prisma from '@public/icons/prisma.svg';
 import mongodb from '@public/custom_icons/mongodb.png';
 import handshake from '@public/assets/prisma-mongodb/handshake.png';
 import Image from 'next/image';
+import { TextContainer } from '@components/TextContainer';
 
 const PrismaMongodb: NextPage = () => {
   return (
     <Thumbnail direction='rtl'>
-      <div className={g['text-container']}>
+      <TextContainer>
         <h1 className={g['text-large']}>USING</h1>
         <SpecialText color='#00bfa5' text='PRISMA' textSize='large' icon={prisma} direction='rtl' />
         <h1 className={g['text-large']}>IN</h1>
         <SpecialText color='#4db33d' text='MONGODB' textSize='large' icon={mongodb} direction='rtl' />
-      </div>
+      </TextContainer>
       <div className={styles['custom-container-container']}>
         <div className={styles['custom-container']}>
           <Image className={styles['big-img']} src={prisma} alt='' />

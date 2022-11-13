@@ -7,16 +7,17 @@ import sass from '@public/icons/sass.svg';
 import next from '@public/icons/next.svg';
 import image from '@public/assets/sass-nextjs/img.png';
 import Image from 'next/image';
+import { TextContainer } from '@components/TextContainer';
 
 const SassNextjs: NextPage = () => {
   return (
     <Thumbnail direction='ltr'>
-      <div className={g['text-container']}>
+      <TextContainer>
         <h1 className={g['text-large']}>USING</h1>
         <SpecialText color='#ec407a' text='SASS' textSize='large' icon={sass} direction='ltr' />
         <h1 className={g['text-large']}>IN</h1>
         <SpecialText color='#cfd8dc' text='NEXTJS' textSize='large' icon={next} textTransparent direction='ltr' />
-      </div>
+      </TextContainer>
       <div className={styles['image-container-container']}>
         <div>
           <Image className={styles['image']} src={image} width={1000} alt='' />
