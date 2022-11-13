@@ -1,0 +1,16 @@
+.special-text-container {
+  display: grid;
+  grid-template-columns: max-content auto;
+}
+
+.special-text {
+  border-radius: 20px;
+  width: max-content;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.icon {
+  aspect-ratio: 1 / 1;
+  height: 100%;
+}
