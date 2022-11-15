@@ -3,7 +3,6 @@ import { Thumbnail } from '@components/Thumbnail';
 import { SpecialText } from '@components/SpecialText';
 import g from '@styles/General.module.scss';
 import Image from 'next/image';
-import stellar from '@public/custom_icons/stellar.svg';
 import { TextContainer } from '@components/TextContainer';
 import gulp from '@public/icons/gulp.svg';
 

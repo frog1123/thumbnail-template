@@ -1,4 +1,4 @@
-#thumbnail-template
+# thumbnail-template
 
 screenshot
 
