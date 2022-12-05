@@ -8,10 +8,10 @@ import { SpecialTextP } from '@components/SpecialTextP';
 
 const CreateDiscordBot: NextPage = () => {
   return (
-    <Thumbnail direction='ltr' bg='/backgrounds/rain_blurred.png'>
+    <Thumbnail direction='ltr' bg='/backgrounds/mc.png'>
       <TextContainer>
         <h1 className={g['text-large']}>TEST</h1>
-        <SpecialTextP gradient='#5865f2' text='COOL' textSize='large' textTransparent bg='/backgrounds/rain_blurred.png' gap direction='ltr' />
+        <SpecialTextP gradient='#2fe01f' text='COOL' textSize='large' gap direction='ltr' />
         <h1 className={g['text-large']}>ASDASASD</h1>
         <h1 className={g['text-large']}>WADASD</h1>
       </TextContainer>
