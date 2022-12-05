@@ -29,7 +29,7 @@ export const SpecialTextP: FC<SpecialTextProps> = ({ color, gradient, icon, text
     <div style={{ display: 'inline-block' }}>
       <div className={styles['special-text-container']} style={{ gap: gap ? '20px' : '', color: color }} dir={direction}>
         <div className={styles['special-text']} style={{ backgroundColor: color, background: gradient }}>
-          <h1 className={bg ? styles['clip-text'] : ''} style={{ fontSize: textSize === 'large' ? '140px' : '', backgroundImage: bg, color: textTransparent ? 'var(--background-color)' : '' }}>
+          <h1 className={bg ? styles['clip-text'] : ''} style={{ fontSize: textSize === 'large' ? '140px' : '', backgroundImage: `url('${bg}')`, color: textTransparent ? 'var(--background-color)' : '' }}>
             {text}
           </h1>
         </div>

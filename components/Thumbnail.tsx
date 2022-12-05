@@ -11,7 +11,7 @@ interface ThumbnailProps {
 
 export const Thumbnail: FC<ThumbnailProps> = ({ direction, bg, children }) => {
   return (
-    <div className={styles.container} style={{ backgroundImage: bg }} dir={direction}>
+    <div className={styles.container} style={{ backgroundImage: `url('${bg}')` }} dir={direction}>
       {children}
     </div>
   );
